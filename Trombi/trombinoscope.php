@@ -9,12 +9,14 @@ $users = get_all_link();
 
 <div class="container">
 <?php foreach ($users as $user) : ?>
-<div class="card" style="width: 18rem; ">
-  <img class="card-img-top" src="/assets/img/son celeb.jpg">
-  <div class="card-body">
-    <h5 class="card-title"><?= $user['nom'] ?></h5>
-    <h5 class="card-title"><?= $user['prenom'] ?></h5>
-  </div>
+<div class="row">
+  <div class="card" style="width: 18rem; ">
+    <img class="card-img-top" src="/Trombi/assets/img/son celeb.jpg">
+    <div class="card-body">
+      <h5 class="card-title"><?= $user['nom'] ?></h5>
+      <h5 class="card-title"><?= $user['prenom'] ?></h5>
+    </div>
+</div>
 <?php endforeach; ?>
 </div>
 </div>
