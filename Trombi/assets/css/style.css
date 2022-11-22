@@ -1,0 +1,16 @@
+
+
+
+body {
+   background-color: #791CF8;
+    
+}
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+.card{
+   display: flex;
+   align-items: stretch;
+}
